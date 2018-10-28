@@ -29,7 +29,7 @@
       padding: 10px;
       padding-bottom: 15px;
     }
-    #animal-hint{
+#animal-hint{
  
       border: 1px solid black;
       background-color:yellow;
@@ -73,12 +73,48 @@
       border: 1px solid black;
       font-size: 2em;
       letter-spacing: 10px;
-    }     
+    }    
+
+ #animal-hint{
+ 
+      border: 1px solid black;
+      background-color:yellow;
+      width: 30%;
+      margin: 0 auto;
+      padding: 20px;
+      padding-bottom: 25px;
+      font-size:15px;
+
+}
+    
  
  
   
 }
-  @media all and (min-width: 768px) and (max-width: 991px){
+  @media all and (min-width: 768px) {
+
+    #game-display {
+      background-color:blue;
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      padding-bottom: 25px;
+      border: 1px solid black;
+      font-size: 3em;
+      letter-spacing: 10px;
+    }    
+
+ #animal-hint{
+ 
+      border: 1px solid black;
+      background-color:yellow;
+      width: 30%;
+      margin: 0 auto;
+      padding: 20px;
+      padding-bottom: 25px;
+      font-size:15px;
+
+}
  
 
 }
